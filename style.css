@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    height: 12vh;
+    background-color: rgb(0, 0, 0);
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.logo img{
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 9px 20px;
+    border-radius: 3%;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+ li:hover {
+    background-color: yellow;
+ }
+
+li:hover a:link, li:hover a:visited {
+    color: black;
+ }
+
+.news {
+    background-color: yellow;
+    border-left: 7px solid black;
+    padding: 5px;
+    width: 13%;
+    margin-top: 2%;
+    margin-left: 9%;
+ }
+
+.news h1 {
+    color: black;
+    margin-left: 14%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+}
+
+.hehe {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 2px;
+    border-radius: 10px;
+    
+}
+
+.hehe h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: 5px solid yellow;
+    padding-left: 5px;
+}
+
+.hehe h2 {
+    margin-top: 2%;
+}
+
+.top {
+    display: flex;
+}
+
+.top-news {
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 60vh;
+    width: 50%;
+    background-image: url("main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .top-news, .text  h2{
+    color: white;
+}
+
+.top-news h1 {
+    font-weight: bold;
+}
+
+.right-content {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 40%;
+    text-align: left;
+}
+
+.right-content h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    border-bottom: 10px solid yellow;
+    border-bottom-width: 10px;
+}
+
+.right-content, .information p {
+    font-size: 25px;
+    margin-top: 6%;
+}
+
+.link-button {
+    background-color: yellow;
+    padding: 15px;
+    width: 30%;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s;
+}
+
+.link-button a {
+    color: black;
+    transition: all 0.3s;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-button:hover {
+    background-color: black;
+}
+
+.link-button:hover a {
+    color: white;
+}
+
+.main-content {
+    height: fit-content;
+    padding-bottom: 10vh;
+}
+
+.entertainment img{
+    height: 300px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.entertainment .en-information {
+    max-width: 52%;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.news-content .en-information .en-text p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.entertainment .en-headline h1 {
+    margin-bottom: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 2%; 
+}
+
+.entertainment .en-headline p {
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.type-news {
+    background-color: yellow;
+    border-left: 7px solid black;
+    padding: 5px;
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 9%;
+    letter-spacing: 2px;
+    text-indent: 0.5in;
+}
+
+.en-text .read-more h5 {
+    color: black;
+    width: 15%;
+    padding: 1%;
+    border-radius: 5px;
+    margin-left: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left: yellow solid 4px;
+    transition: all 0.3s;
+}
+
+.en-text .read-more a {
+    color: black;
+    transition: all 0.3s;
+}
+
+.en-text .read-more:hover h5 {
+    background-color: yellow;
+    border-left: black solid 4px;
+}
+
+.en-text .read-more:hover a {
+    color: white;
+}
+
+.en-text .read-more h5 {
+    margin-top: 2%;
+    width: 100%;
+    padding: 5% 6%;
+}
+
+.news-content {
+    display: flex;
+    margin-left: 3%;
+}
+
+a.read-more {
+    display: flex;
+    align-items: center;
+    width: 1.5in;
+    height: 0.5in;
+    margin-top: 0.2in;
+}
